@@ -75,9 +75,8 @@ class Group {
 public class Main {
 	public static void main(String[] args) {
 		// 전체 학생 목록 및 조 별 인원 수 변동 시 아래 수정
-		String[] people = new String[] { "권수민", "김자성", "김태홍", "김학윤", "김현중", "김혜빈", "나원희", "백서현", "서재원", "송민우", "양도열",
-				"오준택", "오찬석", "옥승호", "이단비", "이재성", "장오혁", "전세인", "정이새", "조홍식", "최윤경", "최하영" }; // 전체 학생 목록
-		int eachGroupCount = 5; // 조 별(최대) 인원 수
+		String[] people = new String[] { "홍길동", "김철수", "이영희", "박영수", "정미영", "최승호", "장미숙", "한영숙", "송명자", "서동철" }; // 전체 학생 목록
+		int eachGroupCount = 3; // 조 별(최대) 인원 수
 
 		System.out.println("전체 인원 수: " + people.length);
 		Group g = new Group(people, eachGroupCount);
